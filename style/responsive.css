@@ -1,0 +1,31 @@
+@media screen and (max-width: 700px){
+    header .container {
+        display: flex;
+        flex-direction: column;
+    }
+    .botao{
+        margin-top: 5px;
+    }
+    .container2 .descricao{
+        width: 500px;
+    }
+  .tela-principal{
+      height: 650px;
+  } 
+}
+
+
+  @media (max-width:550px){
+    .container2 .descricao{
+      width: 400px;
+  }
+    .titulo{
+      width: 80%;
+  } 
+}
+
+@media (max-width:400px){
+    .descricao{
+       width: 100px;
+   }  
+}
